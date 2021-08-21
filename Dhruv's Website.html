@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://dhruvhegde.qoom.space/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Dhruv's Website</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://dhruvhegde.qoom.space/icony.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./Dhruv&#39;s Website_files/css" rel="stylesheet">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: 'Jost';font-size: 22px;
+  padding: 20px;
+  background:  linear-gradient(to bottom right, #999999 0%, #000000 100%);
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 20px 0;
+    color: #03e9f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.2s;
+    margin-left: 30px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+    border-style: double;
+	border-width: 7px;
+	border-color:radial-gradient( circle 770px at 10.2% 40%, rgba(255,22,22,1) 0%, rgba(247,255,27,1) 94.1% );;
+	margin-left: 230px;
+   
+}
+a:hover{
+	
+    background: #f5a102;
+    color: #47ceff;
+    box-shadow: 0 0 22px #ffc659,
+                0 0 22px #ffc659,
+                0 0 22px #ffc659,
+                0 0 22px #ffc659;
+                0 0 22px #ffc659;
+}
+a:nth-child(1){
+    filter: hue-rotate(0deg);
+}
+a:nth-child(2){
+    filter: hue-rotate(10deg);
+}
+a:nth-child(3){
+    filter: hue-rotate(20deg);
+}
+a:nth-child(4){
+    filter: hue-rotate(30deg);
+}
+a span{
+    position: absolute;
+    display: block;
+}
+a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(90deg,transparent,#47ceff);
+    animation: animate1 0.2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#47ceff);
+    animation: animate2 0.2s linear infinite;
+    animation-delay: 0.1s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(270deg,transparent,#47ceff);
+    animation: animate3 0.2s linear infinite;
+    animation-delay: 0.2s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+a span:nth-child(4){
+    bottom: 100%;
+    left: 0;
+    width: 10px;
+    height: 100%;
+    background: linear-gradient(270deg,transparent,#47ceff);
+    animation: animate4 0.2s linear infinite;
+    animation-delay: 0.3s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  width: 1400px;
+  margin-left: 230px;
+  text-align: center;
+  border-style: double;
+  border-width: 17px;
+  background: linear-gradient(to top left, #ffff66 0%, #993366 104%);;
+  border-radius: 30px;
+  rgba(0,172,238,1) 0%, 
+  rgba(2,126,251,1) 100%);
+  transition: transform 1s;
+}
+.wrapper {
+  height: 22vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 5s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.header:hover{
+  transform: scale(1.15);
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  border-radius: 30px;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+  border-radius: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.topnav {
+  text-align: center;
+  overflow: hidden;
+  background-color: 595959;
+  border-radius:20px;
+  color: black;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.roundimg {
+  border-radius: 20%;
+  border-style: double;
+  border-width: 10px;
+}
+.topnav a.active {
+  background-color: #bfbfbf;
+  color: black;
+}
+
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.is-style-rounded img {
+border-radius:10%;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+   border-radius: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div class="wrapper">
+    <div class="typing-demo">
+      Dhruv Hegde's Website
+    </div>
+</div>
+</div>
+<br>
+<div class="topnav">
+  <a class="active" href="https://dhruvhegde.qoom.space/home.html#home">Home</a>
+  <a href="https://dhruvhegde.qoom.space/services.html">Services</a>
+  <a href="https://dhruvhegde.qoom.space/tech.html">Blog &amp; Tech</a>
+  <a href="https://dhruvhegde.qoom.space/home.html#Projects">Projects</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1>Article Examples: </h1>
+      <br>
+      <br>
+      <h2>The Aggravated Expedents of Quantum Computing within Scientific and Sociological Standpoints.</h2>
+      <h5>Dhruv Hegde</h5>
+      <img src="./Dhruv&#39;s Website_files/R.jpg" alt="Avatar" class="roundimg" width="500" height="350">
+      <p>Within the subjective interactions that exist between qubits that process arrays of selective information, many enact a certain benefit for competency and overall capability. As contemporary technology for Quantum Computing is being developed, countless probationary extracts of data have been detailed. Although it is modernist, it poses an elucidation to breaking essential algorithms and structural encryptions that are profoundly embedded. As the Qubit can simultaneously process thousands of supposed algorithms within seconds, its main advantage lies in the exploitation of quantum behaviour, such as superposition, which would allow qubits to pose in multiple manners in order to locate a constructor interface with a given pattern. There are innumerable benefits to using the processing power that dwells within a quantum computer, as it is substantial and the most decisive tool to utilize while doing highly complex algorithms.
+	
+	<br><br>
+	Quantum Computing certainly has considerable implications to relating subjects such as Quantum Chemistry, which will avail inordinately due to the potentiality that a Quantum Computer has to run simultaneous experiments and process data faster than any given apparatus within our domain. Research done at IBM, International Business Machines, have utilized the dominance of Quantum Computers in order to analyze catalytic reactions and perceive the fundamental units of chemistry, especially in the fabrication of superficial chemicals and molecules, that would not be traditionally available within current stadpoints. Even according to data observed by 1Qbit, they observed that Quantum Computers could decipher medical drugs and chemicals that would eradicate and cure ailments that are eminent, and could also accumulate the rate at which materials are being fabricated, especially for industrial and medical use. Its applications also extend to distinguishing alternative ways to improve efficiency in general chemical synthesis, and provide the chemical structure of catalysts. They can also aid the development of Electronic structure theory which observes the quantum state of electrons in certain chemical compositions. The depictions of these processes can pose to be a real beneficial factor to observing nomenclature of countless chemicals and substances, making for a benefactor within Quantum Chemistry.
+	<br><br>
+	Also adding upon the subject of Quantum Chemistry, microbiology is also prominent, as it can be easily interpreted using Problem Decomposition. Problem Decomposition algorithms in the apportioning of subjective predicaments in order to process and interpret them concomitantly. In order to synthesize a hybrid between computational problems, multifarious components must be separated and grouped based on similarities, and this can assist in subsystem resolutions. One constructed arrangement of subsystems in MI-FNO which shows the increments on frozen natural orbitals as abbreviated in the given title. It has standard applications toward diminutive particles and molecules such as Beryllium Hydride, Methane, Ammonia, Water, Hydrogen Fluoride, and copious others. NISQ, Noisy Intermediate-Sized Quantum contrivances will be applicable to this method of isolating orbital structure of particles in the near future, where around 50-100	will continuously cycle through information in order to identify anomalies and outliers, along with repeated patterns. 
+	<br><br>
+	Other applications of Quantum Computing lean toward sociological purposes in order to monitor and distinguish stock fluctuations and detect market anomalies, which would considerably benefit us in finance and the study of financial systems.It can also compute treatment standards and enhance data collection from various medical procedures to determine the success rate and concurrently develop pristine augmentations to already developed medicinal treatments. Also, as previously mentioned, it can ameliorate our current drug production and magnify the level at which drug production is situated at. Adding upon these contemporary predicaments, it can also amplify and optimize areas of interest regarding cybersecurity, where tougher security systems can be prepended to salient documentation and files. Regarding this, It can also aggravate Artificial Intelligence, and subsidiary to that would be regulated weather forecasts and controlled traffic systems. The possibilities and implications of this substantially developing technology are inherently endless and can provide detrimental solutions to organized predicaments that we face in humankind.
+	<br><br>
+	Considering the fundamentally predominant assistance that this technology can provide for us, we are progressing in the developments of qubit, and substantial companies are working to develop more powerful versions and testing new innovations. Thissubject is omnipresent within the scientific community, and could revolutionize the recognition of lucrative subjects in every predominant field of study, ranging from psychology to sociology, from Astronomy to Anatomy. As the conclusive depiction of this mechanism is reconciled with futuristic technology, we are on the course to a convalescent future.
+</p>
+    </div>
+    <div class="card">
+      <h2>Sociological Implications of Carbon Allotropes to stimulate coherence in Scientific and Technological Contrivances</h2>
+      <h5>Dhruv Hegde</h5>
+      <img src="./Dhruv&#39;s Website_files/c.jpg" alt="Avatar" class="roundimg" width="560" height="350">
+      <p>Carbon is a rudimentary element that constitutes every living organism that inhibits the earth. It has major applications mentioned innumerable times in organic chemistry, as it has structural integrity, and different combinations of this element have resulted in the establishment of some of the most compact and adamantine materials such as sheets of graphene and diamonds. Observing the theoretical and experimental implications of graphene, we can perceive its usability as the most resistant material available. According to studies published by Columbia University, large sheets of graphene can be constructed by adhering multiple sheets together, which wouldn’t cause any considerable structural defects, and this allows it to be used in various applications in our society. These numerous applications allow it to be a diverse element and is almost everywhere in our biological systems and habitat, and it’s reverberations upon society can prove to be inordinately substantial, especially in forwarding the fabrication of large structures with graphene being a primary constituent.The framework of carbon allows it’s allotropes to be eminently diverse, like fullerenes and diamond, alongside its applicable isotopes which are abundantly detrimental to maintain plant health.
+      <br>
+      <br>
+	One prosperous and significant fullerene includes the likes of Carbon Quantum Dots, which are a salient component in countless fields, such as solar cells, nanomedicine, bioimaging, and electrocatalysis. This structural material takes hexagonal form, like many of its counterparts, and possess priceless chemical properties such as organized crystalline structure, multistorey dispersibility, photoluminescence, and many others. The synthetic edifice is related to that of carbon nanotubes and graphene, which are included in the same 2 dimensional plane, and also poses as much resistance, but disregards catalytic potentiality. Quantum Carbon Dots have many theoretical implementations on electrochemistry as their catalytic abilities tie directly with the rate of decomposition in electrical decomposition reactions. They also pose a preeminent implication upon Phosphorescence under specific conditions, especially under constant exposure to Polyvinyl Alcohol. The dispersion of carbonyl groups, including aldehydes, ketones, etc., can be evidently observed upon the surface of the susceptible Quantum Carbon Dots. These chemical properties pose important premises within the subject and are vital to the discernment of chemistry and biological fields of study. 
+	<br>
+	<br>
+The proliferation and aggravation of Carbon Nanomaterials within the standpoints of modern science is supremely propitious and serve to be favorable materials. One primary contender includes Carbon Nanotubes which have been investigated due to their efficient levels of electrical and thermal conductivity, along with their impressive tensile strength and revered elasticity. The applications of this prodigious medium is still continuously being tested in order to identify its capability within standpoints such as conductive adhesives, biomedical fabrications, electrical catalysts, structural applications, and countless others. It can also be exposed to acid to be oxidized inorder to improve electrical conductivity within structural applications, sllwing for it to essentially perform better than predisposed semiconductors, and can also provide to be a valuable asset in construction of wires to be both cost effective and lose less energy in transmission of oscillating electrons. They contain copiosus amounts of structural C-C bonds which prove to be vital in maintaining polymer structure and providing resistance. The overall structural; durability and usability of this material is boundless and is both resistant along with the fact that it is highly cost-effective, rather than other materials. The limitless implications allow this to be a versatile product and the entire field of study is excelling continuously and is being developed to carry more diverse and beneficial properties.		
+<br>
+<br>
+There are a ton of multifarious allotropes including graphene, but there are most cost-effective materials that are available and provide the same benefits and can be increasingly structured in greater quantities, including graphene oxide, which is synthesized through the oxidation of traditional grapher, but can be produced in larger quantities and is more cost effective than traditional graphere and cost-effective. Although it mimics both the structure and the properties of traditional graphere, it’s included conductivity is limited and isn’t too effective at conducting electricity like graphene or carbon nanotubes. Hydroxide is combined with the Carbon in order to structurally improve and also is found in 2 dimensional form, just like its counterpart, but it is often commercially produced as a powder or dispersed across a given membrane. It is very effective in optical and photoelectric polymers such as those included in electronic touch screens or in flexible electronics. It is also very fluorescent, making it ideal for medicinal uses and the making of drugs. Overall, this is a great material and provides a lot of structural benefits along with being very versatile.
+<br>
+<br>
+The total benefits of the entire allotrope and isotope group of carbon is innumerable, and statistics provide support for that reasoning. Many studies show that incorporating carbon nanotubes within electrical components or graphene sheets in structural glass or any material in infrastructure, for that manner, can prove to be cost effective for the future and is inordinately beneficial to the coated material. The enhancement that carbon allotropes provide is considerable and it is one of a kind, as this fundamental element is in hexagonal structure. As we move into the future, contemporary implications will arise, reconciling carbon allotropes and isotopes within their designs, as it will pose very beneficial and resolve many issues.
+</p>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="card">
+      <h2>The Repercussions of Artificial Intelligence from Sociological Standpoints and Modern Pseudoscience.</h2>
+      <h5>Dhruv Hegde</h5>
+      <img src="./Dhruv&#39;s Website_files/ai.png" alt="Avatar" class="roundimg" width="560" height="350">
+      <p>With the aggravating development of Artificial Intelligence, both the exclusive market funds and potentiality of the field are inordinately omnipresent, especially considering the far various tasks it can theoretically perform and with flawless accuracy. Even with our current technical knowledge and materials, we will have harnessed some of Artificial Intelligence’s potential, using it to generate entire novels and articles, within an ephemeral period. These are also proposed applications to this technological revolution upon scientific fields, which can allow complications to be resolved, after distinguishing results from thousands of online servers and databases. Although this field does possess countless favorable outcomes, there are those who speculate many ignominious repercussions, which are tremendously concerning, based on solemn standpoints of computer science and improvements of machine learning algorithms. The suitable arguments that coexist upon these subjects are substantial and raise numerous benefits along with detriments. As our society makes continuous progress in terms of computer science and the decoding/encryption of machine learning algorithms, we will need to ponder the rate at which the augmentation of AI will occur.
+      <br>
+      <br>
+	A few prominent scrutinies arise when this subject is addressed, including its rapid supplementation, which has displayed signs of exceeding dominance over speeds of technology reconciling with Moore’s Law. According to a study done on AI by Stanford University, Artificial Intelligence computational capability is accelerating at a much faster pace than Moore’s Law had conclusively stated, which was the proclamation that Computational power will double every 2 years. Although, comparing indubitable statistics, the AI intensity is doubling every mere 3-4 months, which is a quick increase. While this seems constructive and highly favorable, it also requires a multitudinous amount of constant funding and also considerable supremacy over databases. This also raises quandaries regarding unemployment, as AI could efficiently replace millions of working individuals and outperform them all simultaneously, which would improve rates and stabilize economy and more, allowing humans to focus on predicaments, but leaving hundred of thousands of people homeless and crippling, especially with expensive expenditures such as medicine. Considering the supremacy of machines and autonamacy, it could also cause stupendous data loss and loss of crucial information with a small error in the system, which could prove to be an inordinate complication.All these acrimonious examples of implications exhibit the unpropitious repercussions that have the potential to arise from this developing field.
+
+	<br>
+	<br>
+While we have disputed and considered the dissenting outcomes, there are innumerable other superlative denouements that are evident. A research study done by ImageNet experimented with the erudition that AI can acquire in a impermanent period, considering its elevated development and capabilities, They noticed that it only took a mere 13 days in order for the Artificial Intelligence to acquire complementary precisions and over 93% accuracy rates. It also mentioned that training it to this level of accuracy would require over $2,323 in 2017, but only around $11 currently. This excessive improvement in proficiency and coherence proved exceedingly valuable, and could mean that, like Quantum Computers, AI could depict certain algorithms and encryptions that humans could even comprehend. Also, according to AI development statistics, the global AI market has grown over 270% within the foregoing 4 years, and is expected to extend to almost $267 billion dollars by year 2027, and by next year, 2021, alone predicted to be applied in 15% of all global businesses. The international market regarding distribution of AI has reported that locations where AI was implemented, reported an almost 44% reduction in costs, 62% improvements in data speculations, and boost in both productivity and given regulation.		
+<br>
+<br>
+Individuals who dwell in regulated groups and social societies, especially those in scientific fields, have been in favor of Artificial Intelligence, as it can prove fundamental to countless convoluted subjects which have been controversial and unsolvable by prodigious people. It also allows for consistent results in multifarious situations as it can operate all the time, without decelerating, and can also reduce the consignment of errors and misconceptions within certain standpoints. Decisions that are utilized by the Machine Learning Algorithms that are embedded in AI are predominantly accurate as they regard past algorithms and can process everything in their database to find resemblances and similarities, making any anomalies evident. They also allocate predefined and established algorithms and data evaluations so that they can approach concepts within boundaries that are dangerous and perilous for humans to physically perform. Such examples of this may include efficiently mapping the ocean floor geology based on information that was predetermined. This provides huge benefits towards scientific subjects and objects, especially those that cannot be directly observed or interacted with.
+<br>
+<br>
+As our society escalates within the development of this experimental and slightly theoretical subject, we continue to see the applications and advantages that this provides for us. As long as very manually supervise the extension of this innovation, we should be able to maintain the applications and data that AI can take control of, as we don’t want it to replace all human jobs and replicate itself in order to maintain dominance, and while those are just speculations, there are calculations that that is possible. As our knowledge and utilization of contemporary technology is vastly aggravating, we will soon uncover all the predominant factors that contribute to its advantages and disadvantages, and until then we must wait and continue developing upon this promising endeavor.
+</p>
+    </div>
+    
+    
+    
+    
+    <div class="card">
+      <h2>The Egregious Repercussions of Ailments and Deplorable Pandemics on Society and Sociological Advancement, considering Economy and Modern Infrastructure.</h2>
+      <h5>Dhruv Hegde</h5>
+      <img src="./Dhruv&#39;s Website_files/cg.jpg" alt="Avatar" class="roundimg" width="560" height="350">
+      <p>Disease and ailments plague society and are inevitable with more than 1 trillion subspecies and identified microbes, and the outcomes that are derived from these ignominious bacterium are considerable.The composite of revelations caused by disease is intensifying as our dependence on infrastructure and societal interaction increases, and even disrupts modern economic sanctity. Not to mention, they can provide foundations for hundreds of thousands, to millions, of deaths within evanescent intervals. Taking into account the recent Covid-19 orthocoronovirunae pandemic that has sprouted innumerable implications on world economy and social interactions. Directly mortifying almost 77 million individuals over the course of less than 12 months, it has affected worldwide economies prominently, especially physically located locations where individuals tended to avoid. The pandemic itself has lost almost 76.69 billion dollars in terms of cumulative Gross Domestic Product, and is a major contender in the dissipation of modern economic standpoints. Countless malignant diseases have attempted to eliminate our species from the planet, ranging from the substantial Influenza pandemic to the Black Death, they all have eminent effects upon the society that we perceive in the present day. Despite the unity that Pandemics bring, their ramifications are looked down upon as they are inordinately atrocious and lamentable, and their defective culminations vary drastically.
+      <br><br>
+	With the prosperous economy that covers the globe, the drastic reverberations can strike vigorously within present time, and as we have observed with our current Pandemic, it has accomplished that task with much ease, more so instilling fear and concerns within us. The contemporary ailment has spread seamlessly and has effectively crashed the economy, causing it to tribulate the most rigorous decline since the year of 1987, around 33 years ago. The apotheosis was discerned at a national level and almost 400 million unemployments were initiated, with almost a $3.5 billion lost within wages alone, which has helplessly forsaken hundreds of thousands of individuals who were abandoned with minimal resources. Predictions by definitive sources stated that almost 170 countries faced diminishment of per capita income, due to the amount of individuals directly penalized. The allocated Infrastructure fund was ultimately depleted due to the pandemic, despite having almost 81.73 billion USD worth of funding for capital infrastructure. The total fund for coronavirus relief was almost 19 trillion and had a major impact upon national governments. The repercussions that this had upon their governments and total market, considering the economy, was highly detrimental and is one effect due to ailment and pandemics.
+	      <br><br>
+	Another major, yet inevitable, outcome of disease is death, and the toll it takes on others and themselves. Covering the news on the latest pandemic, almost 1.81 million people have died due to the pandemic, and much relief and support has to be given in compensation for this. There have been hundreds of past pandemics, which have taken a stupendous death toll, such as Black Death, Spanish Flu, Cholera Epidemic, Russian Typhus, Hong Kong Flu, Asian Influenza, and many more. The loss of human life has been considerable in the past century and within our standpoints, these pandemics have been terminating millions of innocent people.It is very degrading to thousands of different fields and industries, along with the families of the particular individual who suffers from a disease, and both the pain and death are very inadequate. The penalty of declining population is both deplorable and desolate, and the outcome through a pandemic is evidently execrable.
+	      <br><br>
+	While diseases may seem diverse and foeign, Humans share special connections with the world of microbes, especially considering the bioengineering of the experiments that we conduct on microbes in an attempt to alter them to perform vital organismic functions. One Of the main deplorable effects that has occurred with our modern disease is the repercussions that it has on social interaction. The existing infrastructure and technology that has been established makes trade and exchange of goods toucher during these situations, but social contact easier, as both social media and interaction apps exist, allowing people to still stay in touch, no matter the limit of physical interaction.It has altered the state of physical and traditional activities that usually are seemingly performed, but are too risky to perform during pandemics. Researchers at Western Michigan University have observed that due to the magnification of the pandemic, many people are suffering psychological flexibility where they concentrate and don’t process emotions properly, putting them aside. This is a major problem and can alter the fabrication of moral and psychological defects. These sociological effects are very deleterious and can be very malignant towards the people who suffer through them.
+	      <br><br>
+	As the future arises and more contemporary infrastructure and technology is created, we will confront evolved diseases, which may be on a more prominent level and be reconciled with much more drastic effects. Our adaptability to these dire situations is a leading factor as to why our future is somewhat favorable in terms of disease, as we are exploring more fields in experimental anatomy, in order to combat diseases more efficiently and identify them more swiftly. As the future comes, especially with the rise of 2021 tonight and the utilization of chemicals for a COVID-19 vaccine, it seems that the willpower of humankind will be preserved and that technological revolution might be able to offer more resistance towards diseases and make them less of a threat.
+
+    </p></div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </div>
+  
+  
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <p>I am currently a student with a predominant interest in Science, Math, and Tech. I enjoy writing articles and essays.</p>
+    </div>
+    <div class="card">
+    <h3> Best Smartphones</h3>
+      <h5>Xiaomi Mi 11 Ultra</h5>
+      <img src="./Dhruv&#39;s Website_files/10.jpg" alt="Avatar" width="200" height="266">
+      <h5>Samsung S21 Ultra</h5>
+      <img src="./Dhruv&#39;s Website_files/20.jpg" alt="Avatar" width="200" height="266">
+      <h5>Xiaomi Mi Mix 4</h5>
+      <img src="./Dhruv&#39;s Website_files/30.jpg" alt="Avatar" width="200" height="266">
+      <h5>Asus ROG Phone 5S Pro</h5>
+      <img src="./Dhruv&#39;s Website_files/40.jpg" alt="Avatar" width="200" height="266">
+      <h5>Vivo X60 Pro+</h5>
+      <img src="./Dhruv&#39;s Website_files/50.jpg" alt="Avatar" width="200" height="266">
+    </div>
+    <div class="card">
+      <h3> $400 Smartphone Reccomendations</h3>
+      <h5>Xiaomi Mi 10T 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/7.jpg" alt="Avatar" width="200" height="266">
+      <h5>Xiaomi Redmi K40 Gaming</h5>
+      <img src="./Dhruv&#39;s Website_files/6.jpg" alt="Avatar" width="200" height="266">
+      <h5>Xiaomi Redmi Note 9 Pro 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/4.jpg" alt="Avatar" width="200" height="266">
+      <h5>Motorola Edge 20 Lite</h5>
+      <img src="./Dhruv&#39;s Website_files/5.jpg" alt="Avatar" width="200" height="266">
+      <h5>Xiaomi Mi 10i 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/3.jpg" alt="Avatar" width="200" height="266">
+    </div>
+    <div class="card">
+      <h3> $200 Smartphone Reccomendations</h3>
+      <h5>Realme Q3 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/100.jpg" alt="Avatar" width="200" height="266">
+      <h5>Xiaomi Redmi Note 10 Pro</h5>
+      <img src="./Dhruv&#39;s Website_files/200.jpg" alt="Avatar" width="200" height="266">
+      <h5>Oppo K7X</h5>
+      <img src="./Dhruv&#39;s Website_files/300.jpg" alt="Avatar" width="200" height="266">
+      <h5>Realme Narzo 30 Pro 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/400.jpg" alt="Avatar" width="200" height="266">
+      <h5>Realme 7 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/500.jpg" alt="Avatar" width="200" height="266">
+      <h5>Realme Q2</h5>
+      <img src="./Dhruv&#39;s Website_files/600.jpg" alt="Avatar" width="200" height="266">
+      <h5>Realme V5 5G</h5>
+      <img src="./Dhruv&#39;s Website_files/700.jpg" alt="Avatar" width="200" height="266">
+    </div>
+  </div>
+</div>
+
+
+</body></html>
